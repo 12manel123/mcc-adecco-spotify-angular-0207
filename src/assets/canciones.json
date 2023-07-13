@@ -1,0 +1,30 @@
+{
+    "canciones": [
+      {
+        "titulo": "Cisne Negro",
+        "categoria": "Pop",
+        "tiempo": "3:45 minutos",
+        "image": "../../assets/img/Cisne_negro.jpg"
+      },
+      {
+        "titulo": "ACDC Clasic",
+        "categoria": "Rock",
+        "tiempo": "2:45 min",
+        "image": "../../assets/img/acdc.bmp"
+      },
+      {
+        "titulo": "La rosalia",
+        "categoria": "Regueton",
+        "tiempo": "3:35 min",
+        "image": "../../assets/img/rosalia.bmp"
+      },
+      {
+        "titulo": "Cry Baby",
+        "categoria": "Inocent",
+        "tiempo": "4:15",
+        "image": "../../assets/img/melanie.bmp"
+      }
+    ]
+  }
+  
+  

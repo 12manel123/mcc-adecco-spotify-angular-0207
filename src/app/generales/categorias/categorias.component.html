@@ -1,4 +1,15 @@
-<div class="categoria">
-    <img src="../../../assets/img/Cisne_negro.jpg" alt="">
-    <span class="title">Descubrimiento semanal</span>
-</div>
+<!-- categorias.component.html -->
+<div *ngFor="let item of canciones" class="categoria">
+    <a [routerLink]="'/reproductor'" [queryParams]="{ id: item }">
+      <img src="{{ item.image }}" alt="imagen de {{ item.titulo }}">
+      <span class="title">{{ item.titulo }}</span>
+    </a>
+  </div>
+
+
+  <a href="/reproductor">
+    <div *ngFor="let item of canciones" class="categoria">
+      <img src="{{item.image}}" alt="imagen de {{item.nombre}}">
+      <span class="title">{{item.nombre}}</span>
+    </div>
+  </a>

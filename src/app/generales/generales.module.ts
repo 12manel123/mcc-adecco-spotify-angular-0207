@@ -8,6 +8,7 @@ import { SliderCategoriasComponent } from './slider-categorias/slider-categorias
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -23,7 +24,8 @@ import { MatMenuModule } from '@angular/material/menu';
     CommonModule,
     MatButtonModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    RouterModule
   ],
   exports: [
     MainMenuComponent,

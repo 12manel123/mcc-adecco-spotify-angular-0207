@@ -9,7 +9,14 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  nombreUsuario!:any;
+
   ngOnInit(): void {
+    this.saludarUsuario();
+  }
+
+  saludarUsuario(): void {
+    this.nombreUsuario = prompt('¿Cómo te llamas?');
   }
 
 }
