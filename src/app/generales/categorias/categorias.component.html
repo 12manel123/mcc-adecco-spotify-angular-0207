@@ -1,4 +1,3 @@
-<!-- categorias.component.html -->
 <div *ngFor="let item of canciones" class="categoria">
     <a [routerLink]="'/reproductor'" [queryParams]="{ id: item }">
       <img src="{{ item.image }}" alt="imagen de {{ item.titulo }}">
@@ -7,9 +6,9 @@
   </div>
 
 
-  <a href="/reproductor">
+<!--  <a href="/reproductor">
     <div *ngFor="let item of canciones" class="categoria">
       <img src="{{item.image}}" alt="imagen de {{item.nombre}}">
       <span class="title">{{item.nombre}}</span>
     </div>
-  </a>
+  </a>-->
