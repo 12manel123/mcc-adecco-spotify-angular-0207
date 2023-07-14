@@ -8,9 +8,10 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'detalle', component: DetalleComponent },
-  { path: '**', redirectTo: '/home', pathMatch: 'full' },
   { path: 'reproductor', component: ReproductorComponent },
-  //{ path: 'reproductor', redirectTo: '/reproductor', pathMatch: 'full' },
+  { path: 'reproductor', redirectTo: '/reproductor', pathMatch: 'full' },
+  { path: '**', redirectTo: '/home', pathMatch: 'full' },//esto siempre abajo, lo lee arriva a abajo
+
 
 ];
 
